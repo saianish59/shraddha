@@ -6,7 +6,7 @@
   * For more info and help: https://bootstrapmade.com/php-email-form/
   */
 
-  // Replace contact@example.com with your real receiving email address
+  // Receiving email for PHP-hosted deployments (GitHub Pages uses FormSubmit in index.html)
   $receiving_email_address = 'guravshraddha292@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
