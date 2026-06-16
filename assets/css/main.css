@@ -616,6 +616,43 @@ section,
   margin-top: 20px;
 }
 
+.cert-actions {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cert-actions a {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+.cert-actions .see-credentials {
+  color: var(--accent-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 70%);
+}
+
+.cert-actions .see-credentials:hover {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+}
+
+.cert-actions .view-certificate {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+}
+
+.cert-actions .view-certificate:hover {
+  color: var(--contrast-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 25%);
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
